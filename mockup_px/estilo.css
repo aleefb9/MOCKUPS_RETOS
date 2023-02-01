@@ -42,11 +42,12 @@ nav#navegacion ul#vinieta1{
 }
 
 nav#navegacion ul#vinieta1 li{
+    width: 200px;
     color: rgb(8, 44, 38);
     font-weight: bold;
-    display: inline;
+    display: inline-block;
     padding-right: 50px;
-    width: 200px;
+    text-align: center;
 }
 
 /* VIÑETAS */
