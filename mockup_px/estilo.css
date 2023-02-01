@@ -1,0 +1,213 @@
+/* Características del body */
+body{
+    width: 1280px; /*total body*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: azure;
+}
+
+/* HEADER */
+header#cabecero{
+    width: 1260px; /*1260+20=1280*/
+    height: 80px;
+    padding-left: 20px;
+    background-color: rgb(32, 146, 127);
+}
+
+header#cabecero h1{
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+/* imagen */
+header#cabecero img#logo{
+    width: 100px;
+    float: left;
+    margin-top: 10px;
+}
+
+/* NAV BAR */
+nav#navegacion{
+    width: 1260px;  /*1260+20=1280*/
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(97, 212, 174);
+}
+
+nav#navegacion ul#vinieta1{
+    margin: 0;
+    padding: 0;
+}
+
+nav#navegacion ul#vinieta1 li{
+    color: rgb(8, 44, 38);
+    font-weight: bold;
+    display: inline;
+    padding-right: 50px;
+    width: 200px;
+}
+
+/* VIÑETAS */
+ul.vinietas{
+    list-style: none;
+}
+
+/* CONTENEDOR PRINCIPAL MAIN */
+main#contenedorPrincipal{
+    width: 1280px; 
+}
+
+/* MENÚ LATERAL */
+div#menuLateral{
+    background-color: aquamarine;
+    width: 200px;   /*200+20+20=240*/
+    height: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: left;
+}
+
+div#menuLateral ul#vinieta2{
+    width: 200px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+}
+
+div#menuLateral ul#vinieta2 li{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+div#menuLateral ul#vinieta2 li:hover{
+    background-color: rgb(32, 146, 127);
+    text-decoration: underline;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+/* CAJA DE LA TABLA */
+div#contenedorTabla{
+    width: 740px;   /*740+150+150=1040*/
+    height: 500px;
+    padding-left: 150px;
+    padding-right: 150px;
+    float: right;
+}
+
+div#subContenedorTabla{
+    width: 660px;   /*660+40+40=740*/
+    height: 400px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    background-color: rgba(127, 255, 212, 0.568);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+/* TABLA */
+div#subContenedorTabla table#tabla{
+    width: 656px;
+    margin: 0;
+    border-collapse: collapse;
+    background-color: aliceblue;
+}
+
+div#subContenedorTabla table#tabla thead tr#encabezadoTabla th{
+    background-color: rgb(32, 146, 127);
+    color: aliceblue;
+}
+
+div#subContenedorTabla table#tabla thead tr#encabezadoTabla th a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+div#subContenedorTabla table#tabla thead th{
+    background-color: rgb(97, 212, 174);
+}
+
+div#subContenedorTabla table#tabla th,td,tr{
+    border: 1px solid black;
+    text-align: center;
+}
+
+div#subContenedorTabla table#tabla th#botonAnadir:hover{
+    background-color: rgb(34, 34, 34);
+    transition: 1s;
+}
+
+/* CAJA FORMULARIO */
+div#contenedorFormulario{
+    width: 600px;   /*600+220+220=1040*/
+    height: 500px;
+    padding-left: 220px;
+    padding-right: 220px;
+    float: right;
+}
+
+div#subContenedorFormulario{
+    width: 380px;   /*380+109+109+2=600*/
+    margin-top: 20px;
+    padding-left: 109px;
+    padding-right: 109px;
+    padding-top: 20px;
+    background-color: rgba(127, 255, 212, 0.568);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+div#subContenedorFormulario h2{
+    margin-top: 5px;    
+    text-align: center;
+    background-color: rgb(32, 146, 127);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+/* FORMULARIO */
+div#subContenedorFormulario label{
+    width: 150px;
+}
+
+div#subContenedorFormulario input,select{
+    width: 200px; /* Por defecto tiene la propiedad border-box */
+    padding-left: 5px;  
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
+    float: right;
+}
+
+div#subContenedorFormulario div#divBotones{
+    width: 240px;   /*100+100+40=240*/
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div#subContenedorFormulario div#divBotones button{
+   width: 100px;   /* Por defecto tiene la propiedad border-box */
+   height: 30px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
+}
+
+div#subContenedorFormulario div#divBotones button#botonAnadir{
+    background-color: rgb(71, 204, 104);
+}
+
+div#subContenedorFormulario div#divBotones button#botonCancelar{
+    float: right;
+    background-color: rgb(204, 71, 71);
+}
