@@ -1,6 +1,7 @@
 /* Características del body */
 body{
     width: 1280px; /*total body*/
+    min-height: 650px;
     margin: 0;
     padding: 0;
     font-family: Arial;
@@ -64,7 +65,7 @@ main#contenedorPrincipal{
 div#menuLateral{
     background-color: aquamarine;
     width: 200px;   /*200+20+20=240*/
-    height: 600px;
+    height: 530px;
     padding-left: 20px;
     padding-right: 20px;
     float: left;
@@ -175,7 +176,8 @@ div#subContenedorFormulario h2{
 
 /* FORMULARIO */
 div#subContenedorFormulario label{
-    width: 150px;
+    width: 167.188px;
+    display: inline-block; 
 }
 
 div#subContenedorFormulario input,select{
@@ -186,7 +188,6 @@ div#subContenedorFormulario input,select{
     border: none;
     border-radius: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.205);
-    float: right;
 }
 
 div#subContenedorFormulario div#divBotones{
@@ -209,6 +210,6 @@ div#subContenedorFormulario div#divBotones button#botonAnadir{
 }
 
 div#subContenedorFormulario div#divBotones button#botonCancelar{
-    float: right;
     background-color: rgb(204, 71, 71);
+    margin-left: 35px;
 }

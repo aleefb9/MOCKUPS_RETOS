@@ -2,12 +2,23 @@
 	<head>
 		<meta charset=utf-8 />
         <meta content=autor value="Alejandro Fernández Banda" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="estilo.css"/>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <title>RETOS - píxeles</title>
+        <title>RETOS - porcentaje</title>
 	</head>
 	<body>
 		<header id="cabecero">
+            <div class="container">  
+                <input id="menu-bar" type="checkbox" />
+                <label for="menu-bar"></label>
+                <nav class="menu">
+                  <a href="#">Añadir reto</a>
+                  <a href="#">Añadir categoría</a>
+                  <a href="#">Añadir grupo</a>
+                  <a href="#">Añadir profesor</a>
+                </nav>  
+            </div>
             <a href="index.html"><img id="logo" src="https://i.pinimg.com/originals/f0/63/bb/f063bbf55323092056acb5c4ab6e8d70.png"></a>
 			<h1>WEB RETOS</h1>
 		</header>
@@ -33,48 +44,49 @@
                     <table id="tabla">
                         <thead>
                             <tr id="encabezadoTabla">
-                                <th colspan="5">TABLA RETOS</th>
+                                <th class="ocultar" colspan="5">TABLA RETOS</th>
+                                <th class="mostrar">TABLA RETOS</th>
                                 <th id="botonAnadir"><a href="formulario.html">+</a></th>
                             </tr>
                             <th>NOMBRE RETO</th>
                             <th>DIRIGIDO</th>
-                            <th>INSCRIPCIONES</th>
-                            <th>DURACIÓN RETO</th>
-                            <th>CATEGORÍA</th>
-                            <th>PROFESOR</th>
+                            <th class="ocultar">INSCRIPCIONES</th>
+                            <th class="ocultar">DURACIÓN RETO</th>
+                            <th class="ocultar">CATEGORÍA</th>
+                            <th class="ocultar">PROFESOR</th>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>1</td>
                                 <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
+                                <td class="ocultar">1</td>
+                                <td class="ocultar">1</td>
+                                <td class="ocultar">1</td>
+                                <td class="ocultar">1</td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>2</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>2</td>
+                                <td class="ocultar">2</td>
+                                <td class="ocultar">2</td>
+                                <td class="ocultar">2</td>
+                                <td class="ocultar">2</td>
                             </tr>
                             <tr>
                                 <td>3</td>
                                 <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>3</td>
+                                <td class="ocultar">3</td>
+                                <td class="ocultar">3</td>
+                                <td class="ocultar">3</td>
+                                <td class="ocultar">3</td>
                             </tr>
                             <tr>
                                 <td>4</td>
                                 <td>4</td>
-                                <td>4</td>
-                                <td>4</td>
-                                <td>4</td>
-                                <td>4</td>
+                                <td class="ocultar">4</td>
+                                <td class="ocultar">4</td>
+                                <td class="ocultar">4</td>
+                                <td class="ocultar">4</td>
                             </tr>
                         </tbody>
                     </table>
